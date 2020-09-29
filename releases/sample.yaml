@@ -13,4 +13,4 @@ spec:
     ref: master
     path: charts/sample
   values:
-    replicaCount: 1
+    replicaCount: 2
