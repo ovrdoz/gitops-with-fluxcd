@@ -1,0 +1,14 @@
+---
+apiVersion: helm.fluxcd.io/v1
+kind: HelmRelease
+metadata:
+  name: sample
+  namespace: local
+  annotations:
+    fluxcd.io/automated: "true"
+spec:
+  releaseName: sample
+  chart:
+    git: git@github.com:ovrdoz/gitops-with-fluxcd
+    ref: master
+    path: charts/sample
