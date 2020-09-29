@@ -5,7 +5,7 @@ metadata:
   name: sample
   namespace: local
   annotations:
-    fluxcd.io/automated: "true"
+    fluxcd.io/automated: "false"
 spec:
   releaseName: sample
   chart:
