@@ -4,4 +4,4 @@ metadata:
   name: nginx-configmap
 data:
   index.html: |
-    <h1>I am alive again!!</h1>
+    <h1>I am alive!!</h1>
