@@ -8,6 +8,7 @@ metadata:
     fluxcd.io/automated: "true"
 spec:
   releaseName: sample
+  forceUpgrade: true
   chart:
     git: git@github.com:ovrdoz/gitops-with-fluxcd
     ref: master
