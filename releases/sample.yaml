@@ -13,5 +13,6 @@ spec:
     git: git@github.com:ovrdoz/gitops-with-fluxcd
     ref: master
     path: charts/sample
+    version: 0.1.2
   values:
     replicaCount: 1
